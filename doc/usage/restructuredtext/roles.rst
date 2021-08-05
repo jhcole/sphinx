@@ -109,7 +109,7 @@ Cross-referencing arbitrary locations
 .. rst:role:: ref
 
    To support cross-referencing to arbitrary locations in any document, the
-   standard reST labels are used.  For this to work label names must be unique
+   standard reST labels are used.  For this to work, label names must be unique
    throughout the entire documentation.  There are two ways in which you can
    refer to labels:
 
@@ -197,7 +197,7 @@ Referencing downloadable files
       See :download:`this example script <../example.py>`.
 
    The given filename is usually relative to the directory the current source
-   file is contained in, but if it absolute (starting with ``/``), it is taken
+   file is contained in, but if it is absolute (starting with ``/``), it is taken
    as relative to the top source directory.
 
    The ``example.py`` file will be copied to the output directory, and a
